@@ -12,30 +12,6 @@ This is a Django-based Inventory Management System for managing companies, produ
 
 
 
-## Screenshots
-
-Below are actual screenshots from the application, located in the `Screens/` folder. The images will display correctly on GitHub if you commit the `Screens` folder and all images.
-
-| Screen            | Preview |
-|-------------------|---------|
-| Login Page        | ![Login Page](Screens/image_1.png) |
-| Dashboard         | ![Dashboard](Screens/image_2.png) |
-| Product List      | ![Product List](Screens/image_3.png) |
-| Add Product       | ![Add Product](Screens/image_7.png) |
-| Edit Product      | ![Edit Product](Screens/image_8.png) |
-| Orders List       | ![Orders List](Screens/image_9.png) |
-| Order Details     | ![Order Details](Screens/image_12.png) |
-| Company Profile   | ![Company Profile](Screens/image_13.png) |
-| User Registration | ![User Registration](Screens/image_15.png) |
-| User List         | ![User List](Screens/image_16.png) |
-| Reports           | ![Reports](Screens/image_18.png) |
-| Settings          | ![Settings](Screens/image_19.png) |
-| Notifications     | ![Notifications](Screens/image_22.png) |
-| Help / About      | ![Help / About](Screens/image_23.png) |
-| Miscellaneous 1   | ![Miscellaneous 1](Screens/image_25.png) |
-| Miscellaneous 2   | ![Miscellaneous 2](Screens/image_26.png) |
-
-> Screenshots are for demonstration. Update descriptions as needed to match your actual screen content.
 
 ## Project Structure
 - `Inventory_App/`: Main Django app containing models, views, and migrations

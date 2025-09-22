@@ -1,0 +1,164 @@
+{% extends "home.html" %}
+{% block content %}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add New Product</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f0f4f8;
+      /* display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh; */
+    }
+
+    .form-container {
+      background: #fff;
+      padding: 30px;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      margin: 50px auto;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #555;
+      font-weight: 600;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select,
+    textarea,
+    input[type="file"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      outline: none;
+      font-size: 16px;
+      transition: border-color 0.3s;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      border-color: #007bff;
+    }
+
+    .row {
+      display: flex;
+      gap: 20px;
+    }
+
+    .row .form-group {
+      flex: 1;
+    }
+
+    button {
+      width: 100%;
+      background: #007bff;
+      color: #fff;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    {% if messages %}
+    {% for message in messages %}
+   <center> <p class="alert alert-success">{{message}}</p></center>
+    {% endfor %}
+    {% endif %}
+    <h2>Update Product</h2>
+    <form action="{% url 'update' id %}" method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+      {% for i in product %}
+      <div class="form-group">
+        <label for="product_name">Product Name</label>
+        <input type="text" id="product_name" name="product_name" value="{{i.name}}" required />
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="3" required>{{i.description}}</textarea>
+      </div>
+
+      <!-- <div class="form-group">
+        <label for="category">Category</label>
+        <select id="category" name="category" required>
+          <option value="">Select Category</option>
+          <option value="electronics">Electronics</option>
+          <option value="fashion">Fashion</option>
+          <option value="home">Home</option>
+          <option value="beauty">Beauty</option>
+        </select>
+      </div> -->
+
+      <div class="row">
+        <div class="form-group">
+          <label for="price">Price ($)</label>
+          <input type="number" id="price" name="price" step="0.01" min="0" value="{{i.price}}" required />
+        </div>
+        <div class="form-group">
+          <label for="quantity">Available Quantity</label>
+          <input type="number" id="quantity" name="available_qty" min="1" required readonly value="{{i.quantity}}" />
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="form-group">
+          <label for="quantity">Add Quantity</label>
+          <input type="number" id="quantity" name="quantity" min="1" required  />
+        </div>
+      </div>
+
+      <!-- <div class="form-group">
+        <label for="image">Upload Image</label>
+        <input type="file" id="image" name="image" accept="image/*" required />
+      </div> -->
+      {% endfor %}
+      <button type="submit">Update Product</button>
+    </form>
+  </div>
+
+</body>
+{% endblock %}

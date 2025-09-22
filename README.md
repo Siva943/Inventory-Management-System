@@ -10,18 +10,30 @@ This is a Django-based Inventory Management System for managing companies, produ
 - Dashboard and reporting
 
 
+
 ## Screenshots
-Below are some of the main screens of the application:
+Below are some of the main screens of the application (located in the `Screens/` folder):
 
-| Screen                | Description                        |
-|-----------------------|------------------------------------|
-| ![Login](static/img/admin.jpg) | User login page                  |
-| ![Dashboard](static/Company_Profiles/dashboard-3510327_1280.jpg) | Main dashboard after login        |
-| ![Products](static/img/project-1.jpg) | Product management screen         |
-| ![Orders](static/img/project-2.jpg)   | Orders management screen          |
-| ![Company Profile](static/Company_Profiles/ee.jpg) | Company profile page               |
+| Screen Description      | Preview |
+|------------------------|---------|
+| Login Page             | ![](Screens/image_1.png) |
+| Dashboard              | ![](Screens/image_2.png) |
+| Product List           | ![](Screens/image_3.png) |
+| Add Product            | ![](Screens/image_7.png) |
+| Edit Product           | ![](Screens/image_8.png) |
+| Orders List            | ![](Screens/image_9.png) |
+| Order Details          | ![](Screens/image_12.png) |
+| Company Profile        | ![](Screens/image_13.png) |
+| User Registration      | ![](Screens/image_15.png) |
+| User List              | ![](Screens/image_16.png) |
+| Reports                | ![](Screens/image_18.png) |
+| Settings               | ![](Screens/image_19.png) |
+| Notifications          | ![](Screens/image_22.png) |
+| Help / About           | ![](Screens/image_23.png) |
+| Miscellaneous 1        | ![](Screens/image_25.png) |
+| Miscellaneous 2        | ![](Screens/image_26.png) |
 
-> Images are located in the `static/img/` and `static/Company_Profiles/` folders. Update the paths if you move images or use your own screenshots.
+> Screenshots are for demonstration. Update descriptions as needed to match your actual screen content.
 
 ## Project Structure
 - `Inventory_App/`: Main Django app containing models, views, and migrations

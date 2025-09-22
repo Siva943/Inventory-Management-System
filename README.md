@@ -14,57 +14,26 @@ This is a Django-based Inventory Management System for managing companies, produ
 
 ## Screenshots
 
-Below are actual screenshots from the application, located in the `Screens/` folder. Each image is displayed at a readable size for clarity.
+Below are actual screenshots from the application, located in the `Screens/` folder. The images will display correctly on GitHub if you commit the `Screens` folder and all images.
 
-<div align="center">
-   <img src="Screens/image_1.png" alt="Login Page" width="600" />
-   <br><b>Login Page</b>
-   <br><br>
-   <img src="Screens/image_2.png" alt="Dashboard" width="600" />
-   <br><b>Dashboard</b>
-   <br><br>
-   <img src="Screens/image_3.png" alt="Product List" width="600" />
-   <br><b>Product List</b>
-   <br><br>
-   <img src="Screens/image_7.png" alt="Add Product" width="600" />
-   <br><b>Add Product</b>
-   <br><br>
-   <img src="Screens/image_8.png" alt="Edit Product" width="600" />
-   <br><b>Edit Product</b>
-   <br><br>
-   <img src="Screens/image_9.png" alt="Orders List" width="600" />
-   <br><b>Orders List</b>
-   <br><br>
-   <img src="Screens/image_12.png" alt="Order Details" width="600" />
-   <br><b>Order Details</b>
-   <br><br>
-   <img src="Screens/image_13.png" alt="Company Profile" width="600" />
-   <br><b>Company Profile</b>
-   <br><br>
-   <img src="Screens/image_15.png" alt="User Registration" width="600" />
-   <br><b>User Registration</b>
-   <br><br>
-   <img src="Screens/image_16.png" alt="User List" width="600" />
-   <br><b>User List</b>
-   <br><br>
-   <img src="Screens/image_18.png" alt="Reports" width="600" />
-   <br><b>Reports</b>
-   <br><br>
-   <img src="Screens/image_19.png" alt="Settings" width="600" />
-   <br><b>Settings</b>
-   <br><br>
-   <img src="Screens/image_22.png" alt="Notifications" width="600" />
-   <br><b>Notifications</b>
-   <br><br>
-   <img src="Screens/image_23.png" alt="Help / About" width="600" />
-   <br><b>Help / About</b>
-   <br><br>
-   <img src="Screens/image_25.png" alt="Miscellaneous 1" width="600" />
-   <br><b>Miscellaneous 1</b>
-   <br><br>
-   <img src="Screens/image_26.png" alt="Miscellaneous 2" width="600" />
-   <br><b>Miscellaneous 2</b>
-</div>
+| Screen            | Preview |
+|-------------------|---------|
+| Login Page        | ![Login Page](Screens/image_1.png) |
+| Dashboard         | ![Dashboard](Screens/image_2.png) |
+| Product List      | ![Product List](Screens/image_3.png) |
+| Add Product       | ![Add Product](Screens/image_7.png) |
+| Edit Product      | ![Edit Product](Screens/image_8.png) |
+| Orders List       | ![Orders List](Screens/image_9.png) |
+| Order Details     | ![Order Details](Screens/image_12.png) |
+| Company Profile   | ![Company Profile](Screens/image_13.png) |
+| User Registration | ![User Registration](Screens/image_15.png) |
+| User List         | ![User List](Screens/image_16.png) |
+| Reports           | ![Reports](Screens/image_18.png) |
+| Settings          | ![Settings](Screens/image_19.png) |
+| Notifications     | ![Notifications](Screens/image_22.png) |
+| Help / About      | ![Help / About](Screens/image_23.png) |
+| Miscellaneous 1   | ![Miscellaneous 1](Screens/image_25.png) |
+| Miscellaneous 2   | ![Miscellaneous 2](Screens/image_26.png) |
 
 > Screenshots are for demonstration. Update descriptions as needed to match your actual screen content.
 

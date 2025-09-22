@@ -11,27 +11,60 @@ This is a Django-based Inventory Management System for managing companies, produ
 
 
 
-## Screenshots
-Below are some of the main screens of the application (located in the `Screens/` folder):
 
-| Screen Description      | Preview |
-|------------------------|---------|
-| Login Page             | ![](Screens/image_1.png) |
-| Dashboard              | ![](Screens/image_2.png) |
-| Product List           | ![](Screens/image_3.png) |
-| Add Product            | ![](Screens/image_7.png) |
-| Edit Product           | ![](Screens/image_8.png) |
-| Orders List            | ![](Screens/image_9.png) |
-| Order Details          | ![](Screens/image_12.png) |
-| Company Profile        | ![](Screens/image_13.png) |
-| User Registration      | ![](Screens/image_15.png) |
-| User List              | ![](Screens/image_16.png) |
-| Reports                | ![](Screens/image_18.png) |
-| Settings               | ![](Screens/image_19.png) |
-| Notifications          | ![](Screens/image_22.png) |
-| Help / About           | ![](Screens/image_23.png) |
-| Miscellaneous 1        | ![](Screens/image_25.png) |
-| Miscellaneous 2        | ![](Screens/image_26.png) |
+## Screenshots
+
+Below are actual screenshots from the application, located in the `Screens/` folder. Each image is displayed at a readable size for clarity.
+
+<div align="center">
+   <img src="Screens/image_1.png" alt="Login Page" width="600" />
+   <br><b>Login Page</b>
+   <br><br>
+   <img src="Screens/image_2.png" alt="Dashboard" width="600" />
+   <br><b>Dashboard</b>
+   <br><br>
+   <img src="Screens/image_3.png" alt="Product List" width="600" />
+   <br><b>Product List</b>
+   <br><br>
+   <img src="Screens/image_7.png" alt="Add Product" width="600" />
+   <br><b>Add Product</b>
+   <br><br>
+   <img src="Screens/image_8.png" alt="Edit Product" width="600" />
+   <br><b>Edit Product</b>
+   <br><br>
+   <img src="Screens/image_9.png" alt="Orders List" width="600" />
+   <br><b>Orders List</b>
+   <br><br>
+   <img src="Screens/image_12.png" alt="Order Details" width="600" />
+   <br><b>Order Details</b>
+   <br><br>
+   <img src="Screens/image_13.png" alt="Company Profile" width="600" />
+   <br><b>Company Profile</b>
+   <br><br>
+   <img src="Screens/image_15.png" alt="User Registration" width="600" />
+   <br><b>User Registration</b>
+   <br><br>
+   <img src="Screens/image_16.png" alt="User List" width="600" />
+   <br><b>User List</b>
+   <br><br>
+   <img src="Screens/image_18.png" alt="Reports" width="600" />
+   <br><b>Reports</b>
+   <br><br>
+   <img src="Screens/image_19.png" alt="Settings" width="600" />
+   <br><b>Settings</b>
+   <br><br>
+   <img src="Screens/image_22.png" alt="Notifications" width="600" />
+   <br><b>Notifications</b>
+   <br><br>
+   <img src="Screens/image_23.png" alt="Help / About" width="600" />
+   <br><b>Help / About</b>
+   <br><br>
+   <img src="Screens/image_25.png" alt="Miscellaneous 1" width="600" />
+   <br><b>Miscellaneous 1</b>
+   <br><br>
+   <img src="Screens/image_26.png" alt="Miscellaneous 2" width="600" />
+   <br><b>Miscellaneous 2</b>
+</div>
 
 > Screenshots are for demonstration. Update descriptions as needed to match your actual screen content.
 
